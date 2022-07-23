@@ -173,3 +173,12 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 2em;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+}
