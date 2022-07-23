@@ -6,9 +6,6 @@ html {
     padding: 0px;
     font-family: 'Roboto', sans-serif;
 }
-
-
-
 .header {
     display: flex;
     padding: 30px;
@@ -139,4 +136,40 @@ button {
     font-size: 2.4rem;
     align-self: flex-end;
     font-weight: bold;
+}
+
+.bottom {
+    background-color: white;
+    padding: 5em 13em;
+ 
+}
+.container {
+    background-color: #3882F6;
+    display: flex;
+    padding:4em;
+    border-radius: 12px;
+    justify-content: space-evenly;
+}
+.content {
+    flex-direction: column;
+}
+.action {
+    color:white;
+    font-size: 2.8rem;
+}
+
+.click {
+    color:#f9faf8b2;
+    font-size: 1.6rem;
+}
+
+.signup {
+    border: 2px solid white;
+    color: white;
+    font-size: 2rem;
+    width: 150px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
