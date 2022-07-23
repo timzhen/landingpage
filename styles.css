@@ -1,19 +1,19 @@
+html {
+    font-size:62.5%;
+}
 *{
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
 }
 
-div {
-    background-color:#1F2937;
-    color: #F9FAF8;
-
-}
 
 
 .header {
     display: flex;
     padding: 30px;
+    background-color:#1F2937;
+    color:#F9FAF8
 }
 
 .logo {
@@ -30,6 +30,8 @@ div {
     align-items: center;
     justify-content: center;
     padding: 7em;
+    background-color: #1F2937;
+    color:#F9FAF8
 }
 
 /*left side */
@@ -40,13 +42,13 @@ div {
     flex-direction: column;
 }
 .hero {
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight:900;
     
 }
 
 .secondary {
-    font-size: 18px;
+    font-size: 1.8rem;
     color: #E5E7EB;
 }
 button {
@@ -78,3 +80,63 @@ button {
     width: 386.5px;
 }
 
+.information {
+    height:250px;
+    width: auto;
+    background-color: #F9FAF8;
+    display:flex;
+    justify-content: center;
+    gap: 4em;
+    padding: 3em;
+}
+.square {
+    flex-direction: column;
+}
+
+
+.infohead {
+    font-size: 3.6rem;
+    font-weight:bolder;
+    color:#1F2937;
+    display:flex;
+    justify-content: center;
+    padding: .5em;
+    background-color: #F9FAF8;
+}
+
+
+.box {
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+    border: 3px solid #3882F6;
+
+
+}
+.subtext {
+    display: flex;
+    width: 160px;
+    color: grey;
+    font-size:1.4rem;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 7em 13em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text {
+    font-size:3.6rem;
+    color: #1F2937;
+    font-style:italic;
+}
+
+.author {
+    font-size: 2.4rem;
+    align-self: flex-end;
+    font-weight: bold;
+}
